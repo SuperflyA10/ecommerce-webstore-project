@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>All products - OpulentAutos</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"
+      integrity="sha384-b6lVK+yci+bfDmaY1u0zE8YYJt0TZxLEAFyYSLHId4xoVvsrQu3INevFKo+Xir8e"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="header">
+      <div class="container">
+        <div class="navbar">
+          <div class="logo">
+            <a href="index.html"
+              ><img
+                src="images/logo final.png"
+                width="275px"
+                alt="OpulentAutos logo picture"
+            /></a>
+          </div>
+          <nav>
+            <ul id="MenuSelection">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="All_products.html">Products</a></li>
+              <li><a href="">About</a></li>
+              <li><a href="">Contact</a></li>
+              <li><a href="Login.html">Account</a></li>
+            </ul>
+          </nav>
+
+          <a href="Cart.html"
+            ><img
+              src="images/cart.png"
+              width="30px"
+              height="30px"
+              alt="Cart icon"
+          /></a>
+          <img
+            src="images/menu.png"
+            class="menu-icon"
+            onclick="menutoggle()()"
+            width="30px"
+            height="30px"
+            alt="Cart icon"
+          />
+        </div>
+      <div class="row">
+        <div class="col-4">
+          <a href="Product.html"><img src="images/Audi RS sports leather seats.png" alt="" />
+          <h4>Audi RS black sports leather seats</h4></a>
+          <div class="rating">
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-half"></i>
+          </div>
+          <p>R24 999.99</p>
+        </div>
+        <div class="col-4">
+          <img src="images/bmw rim.jpg" alt="" />
+          <h4>BMW M4 18' Rim</h4>
+          <div class="rating">
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star"></i>
+          </div>
+          <p>R7 999.99</p>
+        </div>
+        <div class="col-4">
+          <img src="images/Ferrari supercar steering wheel.png" alt="" />
+          <h4>Ferrari multi-functional racing steering wheel</h4>
+          <div class="rating">
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star"></i>
+          </div>
+          <p>R19 499.99</p>
+        </div>
+        <div class="col-4">
+          <img src="images/Audi A4 headlight.jpg" alt="" />
+          <h4>Audi A4 headlight</h4>
+          <div class="rating">
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star"></i>
+          </div>
+          <p>R4 999,99</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-4">
+          <img src="images/Audi RS sports leather seats.png" alt="" />
+          <h4>Audi RS black sports leather seats</h4>
+          <div class="rating">
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-half"></i>
+          </div>
+          <p>R24 999.99</p>
+        </div>
+        <div class="col-4">
+          <img src="images/bmw rim.jpg" alt="" />
+          <h4>BMW M4 18' Rim</h4>
+          <div class="rating">
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star"></i>
+          </div>
+          <p>R7 999.99</p>
+        </div>
+        <div class="col-4">
+          <img src="images/Ferrari supercar steering wheel.png" alt="" />
+          <h4>Ferrari multi-functional racing steering wheel</h4>
+          <div class="rating">
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star"></i>
+          </div>
+          <p>R19 499.99</p>
+        </div>
+        <div class="col-4">
+          <img src="images/Audi A4 headlight.jpg" alt="" />
+          <h4>Audi A4 headlight</h4>
+          <div class="rating">
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star"></i>
+          </div>
+          <p>R4 999,99</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-4">
+          <img src="images/Mazda 3 headlight 1.jpg" alt="" />
+          <h4>Mazda 3 Headlights</h4>
+          <div class="rating">
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star"></i>
+          </div>
+          <p>R1 999.99</p>
+        </div>
+        <div class="col-4">
+          <img src="images/bmw  m2 headlight 2.jpg" alt="" />
+          <h4>BMW M2 Headlights</h4>
+          <div class="rating">
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+          </div>
+          <p>R2 699.99</p>
+        </div>
+        <div class="col-4">
+          <img src="images/Toyota corolla headlight.jpg" alt="" />
+          <h4>Toyota Corolla Quest Headlights</h4>
+          <div class="rating">
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-half"></i>
+            <i class="bi bi-star"></i>
+          </div>
+          <p>R1 799.99</p>
+        </div>
+        <div class="col-4">
+          <img src="images/Mercedes amg gt headlight.jpg" alt="" />
+          <h4>Mercedes AMG GT Headlight</h4>
+          <div class="rating">
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star"></i>
+          </div>
+          <p>R3 399,99</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-4">
+          <img src="images/Mercedes A45 amg rim.jpg" alt="" />
+          <h4>Mercedes A45 AMG rims</h4>
+          <div class="rating">
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+          </div>
+          <p>R5 299.99</p>
+        </div>
+        <div class="col-4">
+          <img src="images/Ferrari rim.jpg" alt="" />
+          <h4>Ferrari 19' rim</h4>
+          <div class="rating">
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star"></i>
+          </div>
+          <p>R4 999.99</p>
+        </div>
+        <div class="col-4">
+          <img src="images/Lamborghini rim.png" alt="" />
+          <h4>Lamborghini 19' rim</h4>
+          <div class="rating">
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star"></i>
+          </div>
+          <p>R7 499.99</p>
+        </div>
+        <div class="col-4">
+          <img src="images/Porsche 911 rim.jpg" alt="" />
+          <h4>Porsche 911 18' rim</h4>
+          <div class="rating">
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-half"></i>
+          </div>
+          <p>R5 499,99</p>
+        </div>
+      </div>
+      <div class="page-btn">
+        <span>1</span>
+        <span>2</span>
+        <span>3</span>
+        <span>4</span>
+        <span>&#8594;</span>
+      </div>
+    </div>
+
+    <!--------footer------->
+
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="footer-col-1">
+            <h3>Download our App</h3>
+            <p>Download App for Andriod and ios mobile phone.</p>
+            ><app-logo>
+              <img src="images/play-store.png" alt="" />
+              <img src="images/app-store.png" alt="" />
+            </app-logo>
+          </div>
+          <div class="footer-col-2">
+            <img src="images/logo final.png" />
+            <p>
+              We Aim To Make Car Parts Easily Accessible To the Many At the Best
+              Value For Price you, Only We Can Provide.
+            </p>
+          </div>
+          <div class="footer-col-3">
+            <h3>Useful link</h3>
+            <ul>
+              <li>Coupons</li>
+              <li>Blog Post</li>
+              <li>Return Policy</li>
+              <li>Join Affiliate</li>
+            </ul>
+          </div>
+          <div class="footer-col-4">
+            <h3>Follow us</h3>
+            <ul>
+              <li>Instagram <i class="bi bi-instagram"></i></li>
+              <li>Twitter <i class="bi bi-twitter"></i></li>
+              <li>Facebook <i class="bi bi-facebook"></i></li>
+              <li>Youtube <i class="bi bi-youtube"></i></li>
+            </ul>
+          </div>
+        </div>
+        <hr />
+        <p class="copyright">Copyright 2023 - Superfly Web developers</p>
+      </div>
+    </div>
+
+    <!-------------js for toggle menu-------->
+
+    <script>
+      var MenuSelection = document.getElementById("MenuSelection");
+
+      MenuSelection.style.maxHeight = "0px";
+
+      function menutoggle() {
+        if (MenuSelection.style.maxHeight == "0px") {
+          MenuSelection.style.maxHeight = "200px";
+        } else {
+          MenuSelection.style.maxHeight = "0px";
+        }
+      }
+    </script>
+  </body>
+</html>
